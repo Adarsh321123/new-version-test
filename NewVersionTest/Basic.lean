@@ -1,4 +1,6 @@
+import Mathlib
 open Nat (add_assoc add_comm)
+open Real
 
 theorem foo (a : Nat) : a + 1 = Nat.succ a := by
   sorry
