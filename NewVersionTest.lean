@@ -2,5 +2,3 @@
 -- Import modules here that should be built as part of the library.
 import «NewVersionTest».ExercisesOne
 import «NewVersionTest».ExercisesTwo
-import «NewVersionTest».ExercisesThree
-import «NewVersionTest».ExercisesFour
