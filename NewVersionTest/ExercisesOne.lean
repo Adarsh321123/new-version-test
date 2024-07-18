@@ -14,5 +14,5 @@ theorem example_five_rw (a b c : ℝ) : exp (a + b + c) = exp a * exp b * exp c 
   -- need to provide arguments
   sorry
 
-theorem absorb2 : x ⊔ x ⊓ y = x := by
+theorem absorb2 [Lattice α] (x y : α) : x ⊔ x ⊓ y = x := by
   sorry
