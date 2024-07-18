@@ -13,3 +13,6 @@ theorem example_five_rw (a b c : ℝ) : exp (a + b + c) = exp a * exp b * exp c 
   -- rw [exp_add, exp_add]  -- Lean rewrites the first matching expression, so we don't
   -- need to provide arguments
   sorry
+
+theorem absorb2 : x ⊔ x ⊓ y = x := by
+  sorry
